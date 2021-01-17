@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    background-color: #1f1e1e;
+}
+
+header{
+    display: flex;
+    background-color: #39393b;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+
+.menu,.descriptions,.descriptions2{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+h1{
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900
+}
+
+li{
+    padding: 8px 12px;
+    cursor: pointer;
+    color: white;
+    background-color: #39393b;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.descriptions,.descriptions2{
+    justify-content: center;
+    padding-left: 0;
+}
+
+.des{
+    margin: 16px 24px;
+    padding: 16px 24px;
+    border-radius: 48px;
+    font-size: 24px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+    box-shadow: 5px 6px 2px #000000;
+    transition: 0.5s;
+}
+
+.des:hover{
+    background-color: #2b2b2c;
+}
+
+.modal{
+    background-color: #39393b;
+    text-align: center;
+    padding: 50px 0px;
+    margin: 8px 50px;
+    border-radius: 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    box-shadow: 5px 6px 2px #000000;
+}
+
+.discord{
+    color: white;
+    font-size: 24px;
+}
+
+.hide{
+    display: none;
+}
+
+.men{
+    transition: 0.5s;
+    border-radius: 30px;
+    margin: 0 4px;
+}
+
+.men:hover{
+    background-color: #000000;
+}
+
+footer{
+    background-color: #2b2b2c;
+    position: fixed;
+    font-family: 'Noto Sans KR', sans-serif;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 8px 24px;
+    color: white;
+}
+
+footer h2{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0;
+}
+
+footer p{
+    margin: 0;
+    padding: 0;
+}
+
+footer a{
+    color: white;
+}

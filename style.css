@@ -117,3 +117,45 @@ footer p{
 footer a{
     color: white;
 }
+
+
+.profile{
+    width: 200px;
+    border-radius: 100px;
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.info{
+    background-color: #2b2b2c;
+    display: block;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+.info h5{
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.info p{
+    font-size: 18px;
+}
+
+hr{
+    width: 80%;
+    border: thin double #39393b;
+    margin-top: 70px;
+}
+
+.hide{
+    display: none;
+}

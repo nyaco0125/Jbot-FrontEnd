@@ -159,3 +159,101 @@ hr{
 .hide{
     display: none;
 }
+
+.jobs{
+    display: flex;
+}
+
+.recruit{
+    background-color: #39393b;
+    margin: 20px 50px;
+    width: 500px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 5px 6px 2px #111111;
+    font-family: 'Noto Sans KR', sans-serif;
+    transition: 0.5s;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.on{
+    background-color: #545455;
+}
+
+.on:hover{
+    background-color: #707070;
+}
+
+.finish{
+    background-color: #2c2c2c;
+}
+
+.finish:hover{
+    background-color: #333333;
+}
+
+.halt{
+    background-color: black;
+}
+
+.halt:hover{
+    background-color: rgb(27, 27, 27);
+}
+
+.job_title{
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.job{
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 0;
+    font-weight: 100;
+    font-size: 12px;
+    color: rgb(206, 206, 206);
+}
+
+.Jobmodal{
+    background-color: #2c2c2c;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 100px;
+    padding: 30px 60px;
+    border-radius: 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-bottom: 100px;
+}
+
+.apply{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 8px 12px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: white;
+    color: #111111;
+    text-decoration: none;
+}
+
+.apply:hover{
+    background-color: #b1b1b1;
+}
+
+.jobTitle{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.jobDes{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
